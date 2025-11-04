@@ -17,3 +17,7 @@ Buka terminal VPS kamu, lalu jalankan:
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/triadzyu/securevps/master/amankan.sh)
+
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/triadzyu/securevps/master/rootvps.sh)
